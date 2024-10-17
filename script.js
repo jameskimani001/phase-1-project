@@ -34,7 +34,7 @@ let database = {
 };
 
 // Fetch initial car data
-fetch('http://localhost:3000/cars')
+fetch('https://phase-1-project-5iie.onrender.com/cars')
     .then((res) => {
         if (!res.ok) {
             throw new Error(`HTTP error! status: ${res.status}`);
@@ -56,10 +56,11 @@ function addCar() {
     const year = document.getElementById('year').value;
     const color = document.getElementById('color').value;
     const dailyRate = document.getElementById('dailyRate').value;
+    const id = document.getElementById('id').value;
 
-    const newCar = { make, model, year, color, dailyRate, status: "Available" };
+    const newCar = { make, model, year, color, dailyRate, id, status: "Available" };
 
-    fetch('http://localhost:3000/cars', {
+    fetch('https://phase-1-project-5iie.onrender.com/cars', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newCar)
@@ -113,7 +114,7 @@ function updateBooking() {
     const rentalId = document.getElementById('rentalId').value;
     const newReturnDate = document.getElementById('newReturnDate').value;
 
-    fetch(`http://localhost:3000/rentals/${rentalId}`, {
+    fetch(`https://phase-1-project-5iie.onrender.com/rentals/${rentalId}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ returnDate: newReturnDate })
@@ -128,7 +129,7 @@ function updateBooking() {
 function deleteBooking() {
     const rentalId = document.getElementById('deleteRentalId').value;
 
-    fetch(`http://localhost:3000/rentals/${rentalId}`, {
+    fetch(`https://phase-1-project-5iie.onrender.com/rentals/${rentalId}`, {
         method: 'DELETE'
     })
     .then(res => {

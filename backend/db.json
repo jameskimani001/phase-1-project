@@ -105,6 +105,78 @@
       "color": "Black",
       "dailyRate": "45.00",
       "status": "Available"
+    },
+    {
+      "id": "8ea1",
+      "make": "mk",
+      "model": "2017",
+      "year": "2020",
+      "color": "yellow",
+      "dailyRate": "99",
+      "status": "Available"
+    },
+    {
+      "id": "4398",
+      "make": "mk",
+      "model": "2018",
+      "year": "2020",
+      "color": "Black",
+      "dailyRate": "80.0",
+      "status": "Available"
+    },
+    {
+      "id": "aa38",
+      "make": "infinity",
+      "model": "Camry",
+      "year": "2020",
+      "color": "yellow",
+      "dailyRate": "7890",
+      "status": "Available"
+    },
+    {
+      "id": "8b7b",
+      "make": "infinity",
+      "model": "toyota",
+      "year": "2020",
+      "color": "pink",
+      "dailyRate": "9090",
+      "status": "Available"
+    },
+    {
+      "id": "010c",
+      "make": "infinity",
+      "model": "2017",
+      "year": "2020",
+      "color": "yellow",
+      "dailyRate": "9090",
+      "status": "Available"
+    },
+    {
+      "id": "786e",
+      "make": "infinity",
+      "model": "Camry",
+      "year": "2020",
+      "color": "Black",
+      "dailyRate": "8989",
+      "status": "Available"
+    },
+    {
+      "make": "mk",
+      "model": "toyota",
+      "year": "2020",
+      "color": "yellow",
+      "dailyRate": "8980",
+      "status": "Available",
+      "id": "gJP90E-"
+    },
+    {
+      "make": "mazda",
+      "model": "demio",
+      "year": "2019",
+      "color": "white",
+      "dailyRate": "90000",
+      "status": "Available",
+      "id": "7hxuxSF"
     }
   ],
   "customers": [
@@ -130,30 +202,6 @@
       "licenseNumber": "A1234567"
     }
   ],
-  "rentals": [
-    {
-      "id": "2",
-      "carId": "3",
-      "customerId": "2",
-      "rentalDate": "2024-10-10",
-      "returnDate": "2024-10-15",
-      "totalCost": "300.00"
-    }
-  ],
-  "payments": [
-    {
-      "id": "1",
-      "rentalId": null,
-      "paymentDate": "2024-10-01",
-      "amount": "180.00",
-      "paymentMethod": "Credit Card"
-    },
-    {
-      "id": "2",
-      "rentalId": "2",
-      "paymentDate": "2024-10-10",
-      "amount": "300.00",
-      "paymentMethod": "Cash"
-    }
-  ]
+  "rentals": [],
+  "payments": []
 }
