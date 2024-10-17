@@ -1,0 +1,159 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": "2020",
+      "color": "Blue",
+      "dailyRate": "50.00",
+      "status": "Available",
+      "imageUrl": "https://picsum.photos/seed/camry/600/400",
+      "comments": []
+    },
+    {
+      "id": "2",
+      "make": "Honda",
+      "model": "Accord",
+      "year": "2019",
+      "color": "Black",
+      "dailyRate": "45.00",
+      "status": "Rented",
+      "imageUrl": "https://picsum.photos/seed/accord/600/400",
+      "comments": [
+        {
+          "id": 1,
+          "author": "John Doe",
+          "date": "2024-10-01",
+          "content": "This car was smooth to drive. Highly recommend!"
+        },
+        {
+          "id": 2,
+          "author": "Jane Smith",
+          "date": "2024-10-02",
+          "content": "Rented it for a week. No issues at all."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "make": "Ford",
+      "model": "Escape",
+      "year": "2021",
+      "color": "Red",
+      "dailyRate": "60.00",
+      "status": "Available",
+      "imageUrl": "https://picsum.photos/seed/escape/600/400",
+      "comments": []
+    },
+    {
+      "id": "a726"
+    },
+    {
+      "id": "f1fb"
+    },
+    {
+      "id": "27a8",
+      "make": "mk",
+      "model": "toyota",
+      "year": "2017",
+      "color": "pink",
+      "dailyRate": "566666",
+      "status": "Available"
+    },
+    {
+      "id": "2be4",
+      "make": "mk",
+      "model": "toyota",
+      "year": "2017",
+      "color": "pink",
+      "dailyRate": "566",
+      "status": "Available"
+    },
+    {
+      "id": "7879",
+      "make": "infinity",
+      "model": "2017",
+      "year": "2017",
+      "color": "yellow",
+      "dailyRate": "90",
+      "status": "Available"
+    },
+    {
+      "id": "6bd4",
+      "make": "mk",
+      "model": "toyota",
+      "year": "2017",
+      "color": "pink",
+      "dailyRate": "900",
+      "status": "Available"
+    },
+    {
+      "id": "7f0f",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": "2020",
+      "color": "Blue",
+      "dailyRate": "50.00",
+      "status": "Available"
+    },
+    {
+      "id": "bf98",
+      "make": "Honda",
+      "model": "Accord",
+      "year": "2019",
+      "color": "Black",
+      "dailyRate": "45.00",
+      "status": "Available"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "licenseNumber": "D1234567"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "098-765-4321",
+      "licenseNumber": "S7654321"
+    },
+    {
+      "id": "3",
+      "name": "Alice Green",
+      "email": "alice.green@example.com",
+      "phone": "555-123-4567",
+      "licenseNumber": "A1234567"
+    }
+  ],
+  "rentals": [
+    {
+      "id": "2",
+      "carId": "3",
+      "customerId": "2",
+      "rentalDate": "2024-10-10",
+      "returnDate": "2024-10-15",
+      "totalCost": "300.00"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "rentalId": null,
+      "paymentDate": "2024-10-01",
+      "amount": "180.00",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": "2",
+      "rentalId": "2",
+      "paymentDate": "2024-10-10",
+      "amount": "300.00",
+      "paymentMethod": "Cash"
+    }
+  ]
+}
